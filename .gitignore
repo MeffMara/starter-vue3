@@ -1,0 +1,22 @@
+.DS_Store
+/.env
+node_modules/
+
+# Frontend
+/public/assets
+/public/dist/
+/public/service-worker.js
+
+# Kirby
+.lock
+/public/media/*
+!/public/media/index.html
+/storage/accounts/*
+!/storage/accounts/.gitkeep
+/storage/cache/*
+!/storage/cache/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/sessions/*
+!/storage/sessions/.gitkeep
+/site/config/.license
